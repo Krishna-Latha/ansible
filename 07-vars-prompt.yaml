@@ -4,8 +4,10 @@
   vars_prompt:
   - name: COURSE
     prompt: pls enter course name
+    private: false # indicates it is not confidential information
   - name: DURATION
     prompt: pls enter duration
+    private: false
   - name: TRAINER
     prompt: pls enter trainer name
   tasks:
